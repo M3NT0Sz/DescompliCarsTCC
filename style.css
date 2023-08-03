@@ -1,0 +1,1062 @@
+body {
+    background-color: rgb(236, 237, 242) !important;
+}
+
+* {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+img {
+    mix-blend-mode: multiply;
+}
+
+.navbar {
+    box-shadow: 0 0 10px 0 #004aad !important;
+}
+
+hr {
+    width: 50px;
+    color: #004aad !important;
+    opacity: 1 !important;
+    font-size: 20px;
+}
+
+.ModImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ModImg>h1 {
+    margin-top: 20px;
+}
+
+.ModImg>hr {
+    margin: 0;
+}
+
+.ModQuad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.QuadMod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 190px;
+    height: 190px;
+    box-shadow: 0 0 5px 0 #004aad;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    padding: 20px;
+}
+
+.QuadMod>img {
+    width: 150px;
+    height: auto;
+}
+
+.QuadMod>h3 {
+    color: #004aad;
+}
+
+.VisImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.VisImg>h1 {
+    margin-top: 20px;
+}
+
+.VisImg>hr {
+    margin: 0;
+}
+
+.VisQuad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.QuadVis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 0 5px 0 #004aad;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 50px;
+    background-color: white;
+    overflow: hidden;
+    border: none;
+}
+
+.QuadVis>img {
+    width: 250px;
+    height: auto;
+}
+
+.QuadVis>h3 {
+    color: #004aad;
+}
+
+.ModelosQuad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.ModelosQuad>hr {
+    margin: 0;
+}
+
+.QuadModelos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.CarrosModelos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #004aad;
+    margin: 20px;
+    padding: 30px;
+    overflow: hidden;
+    border: none;
+}
+
+.CarrosModelos>img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.CarQuad {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CarQuad>img {
+    width: 60%;
+    height: auto;
+}
+
+.Estrelas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.Estrelas>img {
+    width: auto;
+    height: 70%;
+}
+
+.EstrelasComen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.EstrelasComen>img {
+    width: auto;
+    height: 70%;
+}
+
+.ComenQuad {
+    max-width: 700px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 10px 0 #004aad;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.ComenEsq {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-right: 1px solid #004aad;
+    padding: 20px;
+}
+
+.ComenEsq>img {
+    width: 100px;
+    height: auto;
+}
+
+.ComenDir {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.ComenBar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.CadQuad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QuadCad {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #004aad;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.QuadCad>h3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.EstrelasOpn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.EstrelasOpn>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+.ButtonMenu {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.MarQuad {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.QuadMar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 5px 0 #004aad;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    padding: 30px;
+}
+
+.QuadMar>font {
+    z-index: 2;
+}
+
+.QuadMar>img {
+    width: 80%;
+    height: auto;
+    z-index: 1;
+}
+
+.LetrasMar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.LetrasMar>h3 {
+    margin-top: 20px;
+}
+
+.LetrasMar>hr {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.MarCarImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.MarCarImg>img {
+    width: auto;
+    height: 200px;
+}
+
+.MarCarQuad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.QuadMarCar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 350px;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 #004aad;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+}
+
+.QuadMarCar>img {
+    width: 100%;
+    height: auto;
+}
+
+.LetrasMarCar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.LetrasMarCar>h3 {
+    margin-top: 20px;
+}
+
+.LetrasMarCar>hr {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.FormMarCar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+}
+
+.IMGPerfil {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    border-color: #004aad;
+    border-style: solid;
+}
+
+.CarPerQuad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.CarPerQuad>form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.QuadCarPer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 90%;
+    max-width: 350px;
+    height: 100%;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 10px 0 #004aad;
+    border-radius: 20px;
+}
+
+.QuadCarPer>img {
+    width: 90%;
+}
+
+.LetrasCarPer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LetrasCarPer>font {
+    margin-top: 20px;
+}
+
+.LetrasCarPer>hr {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.EdiPerQuad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QuadEdiPer {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 10px 0 #004aad;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.QuadEdiPer>form>h3>input {
+    width: 100%;
+}
+
+.LetrasEdiPer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.ComenPerQuad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.QuadComenPer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 #004aad;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.EsquerdaComen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-right: 1px solid #004aad;
+}
+
+.DireitaComen {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.LetrasComenPer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.LetrasComenPer>hr {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.ComenQuadQuad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.EditComenQuad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.QuadEditComen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 #004aad;
+    width: 90%;
+    max-width: 600px;
+    height: 100%;
+}
+
+.EsquerdaEditComen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-right: 1px solid #004aad;
+}
+
+.DireitaEditComen {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.EstrelasEditComen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+}
+
+.EstrelasEditComen>a>img {
+    width: 100%;
+    height: auto;
+}
+
+.DireitaEditComen>textarea {
+    width: 90%;
+    height: 200px;
+}
+
+.py-3 {
+    background-color: white !important;
+    width: 100% !important;
+    padding-right: 10px !important;
+}
+
+.my-4 {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+.containerarrumar {
+    display: flex !important;
+    align-items: center !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.nav-link {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.QuadVeiculos {
+    display: flex;
+    width: 100%;
+}
+
+.EsquerdaVeiculos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    max-width: 250px;
+    width: 45%;
+    background-color: white;
+    box-shadow: 0 0 10px 0 #004aad;
+}
+
+.EsquerdaVeiculos>hr {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.DireitaVeiculos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+}
+
+.DireitaVeiculos>hr {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.VeiQuadQuad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 10px 0 #004aad;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    max-width: 300px;
+    height: 300px;
+    border: none;
+    margin: 5px;
+}
+
+.VeiQuadQuad>img {
+    width: 100%;
+    height: auto;
+}
+
+.QuadVeiculosQuad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.top-titlea{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto 40px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-7 {
+    align-items: center;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: .25rem;
+    box-shadow: 0 0 10px 0 #004aad;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 90%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+    border-color: #004aad;
+    box-shadow: #004aad 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.button-7:hover {
+    transform: translateY(-1px);
+}
+
+.button-7:active {
+    background-color: #F0F0F1;
+    border-color: #004aad;
+    box-shadow: #004aad 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.button-6 {
+    align-items: center;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: .25rem;
+    box-shadow: 0 0 10px 0 #004aad;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.button-6:hover,
+.button-6:focus {
+    border-color: #004aad;
+    box-shadow: #004aad 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+    transform: translateY(-1px);
+}
+
+.button-6:active {
+    background-color: #F0F0F1;
+    border-color: #004aad;
+    box-shadow: #004aad 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.MeioUsu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    margin-top: 20px;
+    max-width: 700px;
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 20px #004aad;
+}
+
+.wrapper .title-text {
+    display: flex;
+    width: 200%;
+}
+
+.wrapper .title {
+    width: 50%;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .slide-controls {
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0 10px 0;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.slide-controls .slide {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.6s ease;
+}
+
+.slide-controls label.signup {
+    color: #000;
+}
+
+.slide-controls .slider-tab {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    z-index: 0;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(left, #005cd8, #004aad);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#signup:checked~.slider-tab {
+    left: 50%;
+}
+
+#signup:checked~label.signup {
+    color: #fff;
+    cursor: default;
+    user-select: none;
+}
+
+#signup:checked~label.login {
+    color: #000;
+}
+
+#login:checked~label.signup {
+    color: #000;
+}
+
+#login:checked~label.login {
+    cursor: default;
+    user-select: none;
+}
+
+.wrapper .form-container {
+    width: auto;
+    overflow: hidden;
+}
+
+.form-container .form-inner {
+    display: flex;
+    width: 200%;
+}
+
+.form-container .form-inner form {
+    width: 50%;
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-inner form .field {
+    height: 50px;
+    width: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-inner form .field input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.form-inner form .field input:focus {
+    border-color: #004aad;
+    /* box-shadow: inset 0 0 3px #fb6aae; */
+}
+
+.form-inner form .field input::placeholder {
+    color: #999;
+    transition: all 0.3s ease;
+}
+
+form .field input:focus::placeholder {
+    color: #b3b3b3;
+}
+
+.form-inner form .pass-link {
+    margin-top: 5px;
+}
+
+.form-inner form .signup-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-inner form .pass-link a,
+.form-inner form .signup-link a {
+    color: #004aad;
+    text-decoration: none;
+}
+
+.form-inner form .pass-link a:hover,
+.form-inner form .signup-link a:hover {
+    text-decoration: underline;
+}
+
+form .btn {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+form .btn .btn-layer {
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    background: -webkit-linear-gradient(right, #005cd8, #004aad, #005cd8, #004aad);
+    border-radius: 5px;
+    transition: all 0.4s ease;
+    ;
+}
+
+form .btn:hover .btn-layer {
+    left: 0;
+}
+
+form .btn input[type="submit"] {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+    padding-left: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
