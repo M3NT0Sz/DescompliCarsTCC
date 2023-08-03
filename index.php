@@ -91,10 +91,10 @@ if (isset($_SESSION['login'])) {
                     <img class="bd-placeholder-img" src="./Imagens/Senna.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
                 </div>
                 <div class="carousel-item">
-                    <img class="bd-placeholder-img" src="./Imagens/Senna.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img" src="./Imagens/Veneno.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
                 </div>
                 <div class="carousel-item">
-                    <img class="bd-placeholder-img" src="./Imagens/Senna.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img" src="./Imagens/Viper.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -3172,10 +3172,10 @@ if (isset($_SESSION['login'])) {
                             <img class="bd-placeholder-img" src="./Imagens/Senna.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
                         </div>
                         <div class="carousel-item">
-                            <img class="bd-placeholder-img" src="./Imagens/Senna.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <img class="bd-placeholder-img" src="./Imagens/Veneno.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
                         </div>
                         <div class="carousel-item">
-                            <img class="bd-placeholder-img" src="./Imagens/Senna.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <img class="bd-placeholder-img" src="./Imagens/Viper.png" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
