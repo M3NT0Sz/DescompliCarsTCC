@@ -622,7 +622,7 @@ if (isset($_SESSION['login'])) {
         unset($_SESSION['TudoTudo']);
         ?>
             <div class="MeioUsu">
-                <div class="wrapper">
+                <div class="wrapper" style="margin-bottom: 20px;">
                     <div class="title-text">
                         <div class="title login">Login</div>
                         <div class="title signup">Cadastrar</div>
@@ -2622,6 +2622,14 @@ if (isset($_SESSION['login'])) {
                         </form>
                     </div>
                     <div class="DireitaVeiculos">
+                        <form action="#" method="post">
+                            <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; text-align: center; flex-wrap: wrap;">
+                                <input type="hidden" name="Veiculos" value="Veiculos">
+                                <input type="hidden" name="SearchVei" value="SearchVei">
+                                <input type="text" name="Search" class="SearchVei" placeholder="Procurando um Veiculo?">
+                                <button class="button-7">Procurar</button>
+                            </div>
+                        </form>
                         <?php
                         if ($_POST['ProcuraVeiculos']) {
                             $tudo = $_POST['Tudo'];
@@ -2686,16 +2694,74 @@ if (isset($_SESSION['login'])) {
                                     }
                                     ?>
                                 </div>
-                                <?php
+                            <?php
+                            }
+                        } else if ($_POST['SearchVei']) {
+                            ?>
+                            <?php
+                            $search = $_POST['Search'];
+                            if ($search != "") {
+                                echo "<div class=containerconcea>";
+                                echo "<div class=rowb>";
+                                $procurar = "SELECT * FROM carros WHERE car_modelo LIKE '%$search%'";
+                                $comando = mysqli_query($conn, $procurar);
+                                while ($row = mysqli_fetch_array($comando)) {
+                                    $cod = $row['car_cod'];
+                                    $marca = $row['car_marca'];
+                                    $modelo = $row['car_modelo'];
+                                    $tipo = $row['car_tipo'];
+                                    $imagem = base64_encode($row['car_image']);
+                            ?>
+                                    <div style="display: flex; flex-direction: column;">
+                                        <form action=# method=post>
+                                            <input type="hidden" name="Carros" value="Carros">
+                                            <input type="hidden" name="CarCod" value="<?php echo "$cod" ?>">
+                                            <button class="VeiQuadQuad">
+                                                <?php echo "<img src='data:image/jpeg;base64,$imagem'>"; ?>
+                                                <center>
+                                                    <h5>
+                                                        <?php echo "$marca $modelo"; ?>
+                                                    </h5>
+                                                </center>
+                                                <input type=hidden name=cod value=$cod>
+                                            </button>
+                                        </form>
+                                        <?php
+                                        if (isset($_SESSION['login'])) {
+                                            if ($codigousu == "1" || $codigousu == "2") {
+                                        ?>
+                                                <center>
+                                                    <form method="post" action="tudo.php">
+                                                        <input type="hidden" name="ExcVei" value="ExcVei">
+                                                        <input type="hidden" name="CodVei" value="<?php echo "$cod"; ?>">
+                                                        <button>Excluir</button>
+                                                    </form>
+                                                    <form method=post action=#>
+                                                        <input type="hidden" name="EdiVei" value="EdiVei">
+                                                        <input type="hidden" name="CodEdi" value="<?php echo "$cod"; ?>">
+                                                        <button>Editar</button>
+                                                    </form>
+                                                </center>
+                                        <?php
+                                            }
+                                        } else {
+                                            echo "";
+                                        }
+                                        ?>
+                                    </div>
+                            <?php
+                                }
                             }
                         } else {
+                            ?>
+                            <?php
                             $teste = "SELECT * FROM carros";
                             $comando = mysqli_query($conn, $teste);
                             while ($row = mysqli_fetch_array($comando)) {
                                 $tipo = $row['car_tipo'];
                                 if ($tipo == "Sedans") {
                                     echo "<h3 style='margin-top:20px;'>Sedans</h3><hr>";
-                                ?>
+                            ?>
                                     <div class="QuadVeiculosQuad">
                                         <?php
                                         $carros = "SELECT * FROM carros WHERE car_tipo='Sedans' ORDER BY car_contagem desc LIMIT 3";
