@@ -304,3 +304,27 @@ if ($_POST['CadastroUsu']) {
         header("Location: index.php");
     }
 }
+
+if ($_POST['ExcComenCar']) {
+    $cod = $_POST['cod'];
+    $sql = "DELETE FROM opnioes WHERE opn_cod = '$cod'";
+    $comando  = mysqli_query($conn, $sql);
+    $_SESSION['TudoTudo'] = "Perfil";
+    header("location: index.php");
+}
+
+if ($_POST['ExcComen']) {
+    $cod = $_POST['codigoopn'];
+
+    $sql = "DELETE FROM opnioes WHERE opn_cod = '$cod'";
+    $comando  = mysqli_query($conn, $sql);
+    if (mysqli_insert_id($conn)) {
+        $_SESSION['TudoTudo'] = "Perfil";
+        $_SESSION['msgC'] = "Comentario não Excluido com Sucesso!";
+        header("location: index.php");
+    } else {
+        $_SESSION['TudoTudo'] = "Perfil";
+        $_SESSION['msgC'] = "Comentario Excluido com Sucesso!";
+        header("location: index.php");
+    }
+}
